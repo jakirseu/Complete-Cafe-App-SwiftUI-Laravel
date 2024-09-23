@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04033AAF2CA15CEF00D53251 /* ImageVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04033AAE2CA15CEF00D53251 /* ImageVIew.swift */; };
+		04033AB12CA162F200D53251 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04033AB02CA162ED00D53251 /* Category.swift */; };
+		042C4BBB2C86D88300767F68 /* RestaurantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C4BBA2C86D88300767F68 /* RestaurantApp.swift */; };
+		042C4BBD2C86D88300767F68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C4BBC2C86D88300767F68 /* ContentView.swift */; };
+		042C4BBF2C86D88600767F68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042C4BBE2C86D88600767F68 /* Assets.xcassets */; };
+		042C4BC22C86D88600767F68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042C4BC12C86D88600767F68 /* Preview Assets.xcassets */; };
+		042C4BC92C86D9C900767F68 /* ProductManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C4BC82C86D9C900767F68 /* ProductManager.swift */; };
+		042C4BCB2C86DA2100767F68 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C4BCA2C86DA2100767F68 /* Product.swift */; };
+		042C4BCF2C86DBBC00767F68 /* ProductGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C4BCE2C86DBBC00767F68 /* ProductGrid.swift */; };
+		042C4BD22C86DF5800767F68 /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C4BD12C86DF5800767F68 /* CartManager.swift */; };
+		042C4BD42C86DFAB00767F68 /* PaymentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C4BD32C86DFAB00767F68 /* PaymentManager.swift */; };
+		042C4BD72C86E0B400767F68 /* Stripe in Frameworks */ = {isa = PBXBuildFile; productRef = 042C4BD62C86E0B400767F68 /* Stripe */; };
+		042C4BD92C86E0B400767F68 /* StripeApplePay in Frameworks */ = {isa = PBXBuildFile; productRef = 042C4BD82C86E0B400767F68 /* StripeApplePay */; };
+		042C4BDB2C86E20C00767F68 /* StripeCardScan in Frameworks */ = {isa = PBXBuildFile; productRef = 042C4BDA2C86E20C00767F68 /* StripeCardScan */; };
+		042C4BDD2C86E20C00767F68 /* StripeFinancialConnections in Frameworks */ = {isa = PBXBuildFile; productRef = 042C4BDC2C86E20C00767F68 /* StripeFinancialConnections */; };
+		042C4BDF2C86E20C00767F68 /* StripeIdentity in Frameworks */ = {isa = PBXBuildFile; productRef = 042C4BDE2C86E20C00767F68 /* StripeIdentity */; };
+		04655FAF2C86E50E00575E3F /* StripePaymentSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 04655FAE2C86E50E00575E3F /* StripePaymentSheet */; };
+		04655FB12C86E56000575E3F /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04655FB02C86E55F00575E3F /* CartView.swift */; };
+		04655FB32C86E57300575E3F /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04655FB22C86E57300575E3F /* CheckoutView.swift */; };
+		04655FB52C86E59A00575E3F /* ThankYou.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04655FB42C86E59A00575E3F /* ThankYou.swift */; };
+		04655FB72C871EB500575E3F /* ProductDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04655FB62C871EB500575E3F /* ProductDetails.swift */; };
+		04655FB92C87351000575E3F /* ToolbarCartCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04655FB82C87351000575E3F /* ToolbarCartCount.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04033AAD2CA1497700D53251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		04033AAE2CA15CEF00D53251 /* ImageVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageVIew.swift; sourceTree = "<group>"; };
+		04033AB02CA162ED00D53251 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		042C4BB72C86D88300767F68 /* CafeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		042C4BBA2C86D88300767F68 /* RestaurantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantApp.swift; sourceTree = "<group>"; };
+		042C4BBC2C86D88300767F68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		042C4BBE2C86D88600767F68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		042C4BC12C86D88600767F68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		042C4BC82C86D9C900767F68 /* ProductManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductManager.swift; sourceTree = "<group>"; };
+		042C4BCA2C86DA2100767F68 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		042C4BCE2C86DBBC00767F68 /* ProductGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductGrid.swift; sourceTree = "<group>"; };
+		042C4BD12C86DF5800767F68 /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		042C4BD32C86DFAB00767F68 /* PaymentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentManager.swift; sourceTree = "<group>"; };
+		04655FB02C86E55F00575E3F /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		04655FB22C86E57300575E3F /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		04655FB42C86E59A00575E3F /* ThankYou.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYou.swift; sourceTree = "<group>"; };
+		04655FB62C871EB500575E3F /* ProductDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetails.swift; sourceTree = "<group>"; };
+		04655FB82C87351000575E3F /* ToolbarCartCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarCartCount.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		042C4BB42C86D88300767F68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042C4BDB2C86E20C00767F68 /* StripeCardScan in Frameworks */,
+				042C4BDD2C86E20C00767F68 /* StripeFinancialConnections in Frameworks */,
+				042C4BDF2C86E20C00767F68 /* StripeIdentity in Frameworks */,
+				042C4BD72C86E0B400767F68 /* Stripe in Frameworks */,
+				04655FAF2C86E50E00575E3F /* StripePaymentSheet in Frameworks */,
+				042C4BD92C86E0B400767F68 /* StripeApplePay in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042C4BAE2C86D88300767F68 = {
+			isa = PBXGroup;
+			children = (
+				042C4BB92C86D88300767F68 /* CafeApp */,
+				042C4BB82C86D88300767F68 /* Products */,
+				04655FAD2C86E50E00575E3F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		042C4BB82C86D88300767F68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042C4BB72C86D88300767F68 /* CafeApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042C4BB92C86D88300767F68 /* CafeApp */ = {
+			isa = PBXGroup;
+			children = (
+				04033AAD2CA1497700D53251 /* Info.plist */,
+				042C4BD02C86DC8A00767F68 /* Models */,
+				042C4BCC2C86DB9500767F68 /* Views */,
+				042C4BBA2C86D88300767F68 /* RestaurantApp.swift */,
+				042C4BBE2C86D88600767F68 /* Assets.xcassets */,
+				042C4BC02C86D88600767F68 /* Preview Content */,
+			);
+			path = CafeApp;
+			sourceTree = "<group>";
+		};
+		042C4BC02C86D88600767F68 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				042C4BC12C86D88600767F68 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		042C4BCC2C86DB9500767F68 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04655FB22C86E57300575E3F /* CheckoutView.swift */,
+				04655FB02C86E55F00575E3F /* CartView.swift */,
+				042C4BBC2C86D88300767F68 /* ContentView.swift */,
+				042C4BCD2C86DBAA00767F68 /* Components */,
+				04655FB62C871EB500575E3F /* ProductDetails.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		042C4BCD2C86DBAA00767F68 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				042C4BCE2C86DBBC00767F68 /* ProductGrid.swift */,
+				04655FB42C86E59A00575E3F /* ThankYou.swift */,
+				04655FB82C87351000575E3F /* ToolbarCartCount.swift */,
+				04033AAE2CA15CEF00D53251 /* ImageVIew.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		042C4BD02C86DC8A00767F68 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04033AB02CA162ED00D53251 /* Category.swift */,
+				042C4BCA2C86DA2100767F68 /* Product.swift */,
+				042C4BC82C86D9C900767F68 /* ProductManager.swift */,
+				042C4BD12C86DF5800767F68 /* CartManager.swift */,
+				042C4BD32C86DFAB00767F68 /* PaymentManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04655FAD2C86E50E00575E3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		042C4BB62C86D88300767F68 /* CafeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042C4BC52C86D88600767F68 /* Build configuration list for PBXNativeTarget "CafeApp" */;
+			buildPhases = (
+				042C4BB32C86D88300767F68 /* Sources */,
+				042C4BB42C86D88300767F68 /* Frameworks */,
+				042C4BB52C86D88300767F68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CafeApp;
+			packageProductDependencies = (
+				042C4BD62C86E0B400767F68 /* Stripe */,
+				042C4BD82C86E0B400767F68 /* StripeApplePay */,
+				042C4BDA2C86E20C00767F68 /* StripeCardScan */,
+				042C4BDC2C86E20C00767F68 /* StripeFinancialConnections */,
+				042C4BDE2C86E20C00767F68 /* StripeIdentity */,
+				04655FAE2C86E50E00575E3F /* StripePaymentSheet */,
+			);
+			productName = Restaurant;
+			productReference = 042C4BB72C86D88300767F68 /* CafeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042C4BAF2C86D88300767F68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					042C4BB62C86D88300767F68 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 042C4BB22C86D88300767F68 /* Build configuration list for PBXProject "CafeApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 042C4BAE2C86D88300767F68;
+			packageReferences = (
+				042C4BD52C86E0B400767F68 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */,
+			);
+			productRefGroup = 042C4BB82C86D88300767F68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042C4BB62C86D88300767F68 /* CafeApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		042C4BB52C86D88300767F68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042C4BC22C86D88600767F68 /* Preview Assets.xcassets in Resources */,
+				042C4BBF2C86D88600767F68 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		042C4BB32C86D88300767F68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042C4BBD2C86D88300767F68 /* ContentView.swift in Sources */,
+				042C4BD22C86DF5800767F68 /* CartManager.swift in Sources */,
+				04033AAF2CA15CEF00D53251 /* ImageVIew.swift in Sources */,
+				04655FB52C86E59A00575E3F /* ThankYou.swift in Sources */,
+				042C4BD42C86DFAB00767F68 /* PaymentManager.swift in Sources */,
+				042C4BCB2C86DA2100767F68 /* Product.swift in Sources */,
+				04655FB92C87351000575E3F /* ToolbarCartCount.swift in Sources */,
+				042C4BCF2C86DBBC00767F68 /* ProductGrid.swift in Sources */,
+				04655FB72C871EB500575E3F /* ProductDetails.swift in Sources */,
+				042C4BC92C86D9C900767F68 /* ProductManager.swift in Sources */,
+				04655FB12C86E56000575E3F /* CartView.swift in Sources */,
+				042C4BBB2C86D88300767F68 /* RestaurantApp.swift in Sources */,
+				04655FB32C86E57300575E3F /* CheckoutView.swift in Sources */,
+				04033AB12CA162F200D53251 /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		042C4BC32C86D88600767F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		042C4BC42C86D88600767F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		042C4BC62C86D88600767F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CafeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 89DA6A24E8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CafeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.cafe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		042C4BC72C86D88600767F68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CafeApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 89DA6A24E8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CafeApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = example.com.cafe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042C4BB22C86D88300767F68 /* Build configuration list for PBXProject "CafeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042C4BC32C86D88600767F68 /* Debug */,
+				042C4BC42C86D88600767F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042C4BC52C86D88600767F68 /* Build configuration list for PBXNativeTarget "CafeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042C4BC62C86D88600767F68 /* Debug */,
+				042C4BC72C86D88600767F68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		042C4BD52C86E0B400767F68 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stripe/stripe-ios-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 23.29.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		042C4BD62C86E0B400767F68 /* Stripe */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 042C4BD52C86E0B400767F68 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = Stripe;
+		};
+		042C4BD82C86E0B400767F68 /* StripeApplePay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 042C4BD52C86E0B400767F68 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeApplePay;
+		};
+		042C4BDA2C86E20C00767F68 /* StripeCardScan */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 042C4BD52C86E0B400767F68 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeCardScan;
+		};
+		042C4BDC2C86E20C00767F68 /* StripeFinancialConnections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 042C4BD52C86E0B400767F68 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeFinancialConnections;
+		};
+		042C4BDE2C86E20C00767F68 /* StripeIdentity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 042C4BD52C86E0B400767F68 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripeIdentity;
+		};
+		04655FAE2C86E50E00575E3F /* StripePaymentSheet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 042C4BD52C86E0B400767F68 /* XCRemoteSwiftPackageReference "stripe-ios-spm" */;
+			productName = StripePaymentSheet;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 042C4BAF2C86D88300767F68 /* Project object */;
+}
