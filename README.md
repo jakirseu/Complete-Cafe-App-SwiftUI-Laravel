@@ -6,14 +6,13 @@ Complete Caffe app for iOS using SwiftUI. Backend code also added in the reposit
 
 Add your Stripe API keys to your .env file:
 
-`
-STRIPE_SECRET=YOUR_STRIPE_SECREAT
+    STRIPE_SECRET=YOUR_STRIPE_SECREAT
+    STRIPE_PUBLISHED=YOUR_STRIPE_PUBLISHED_KEY
 
-STRIPE_PUBLISHED=YOUR_STRIPE_PUBLISHED_KEY
-`
 
-![enter image description here](screenshots/screenshot1.png)
-![enter image description here](screenshots/app1.png)
-![enter image description here](screenshots/app2.png)
+
+![Cafe App ](screenshots/screenshot1.png)
+![iOS Cafe App 1](screenshots/app1.png)
+![iOS SwiftUI E-commerce App](screenshots/app2.png)
 ![enter image description here](screenshots/app3.png)
 ![enter image description here](screenshots/app4.png)
