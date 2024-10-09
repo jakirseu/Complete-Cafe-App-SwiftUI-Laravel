@@ -1,1 +1,2 @@
-*.sqlite*
+# I am uploading SQLite database too. If you want to disable, uncomment this:
+# *.sqlite*

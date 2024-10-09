@@ -17,22 +17,22 @@ class ProductController extends Controller
     public function index()
     {
 
- // Fetch products with their associated category
- $products = Product::with('category')->orderBy('created_at', 'desc')->get();
+        // Fetch products with their associated category
+        $products = Product::with('category')->orderBy('created_at', 'desc')->get();
 
- // Transform the data to include necessary fields
- $response = $products->map(function ($product) {
-     return [
-         'id' => $product->id,
-         'title' => $product->title,
-         'description' => $product->description,
-         'price' => $product->price,
-         'image' => $product->image ? url($product->image) : null,
-         'category' => $product->category ? $product->category->name : null, // Single category name
-     ];
- });
+        // Transform the data to include necessary fields
+        $response = $products->map(function ($product) {
+            return [
+                'id' => $product->id,
+                'title' => $product->title,
+                'description' => $product->description,
+                'price' => $product->price,
+                'image' => $product->image ? url('storage/' . $product->image) : null,
+                'category' => $product->category ? $product->category->name : null, // Single category name
+            ];
+        });
 
- return response()->json($response);
+        return response()->json($response);
 
     }
 
@@ -40,23 +40,23 @@ class ProductController extends Controller
 
     // {
 
-        // // Fetch products with their associated categories
-        // $products = Product::with('categories')->get();
+    // // Fetch products with their associated categories
+    // $products = Product::with('categories')->get();
 
-        // // Transform the data to include necessary fields
-        // $response = $products->map(function ($product) {
-        //     return [
-        //         'id' => $product->id,
-        //         'name' => $product->name,
-        //         'category' => $product->category ? [ // Check if category exists
+    // // Transform the data to include necessary fields
+    // $response = $products->map(function ($product) {
+    //     return [
+    //         'id' => $product->id,
+    //         'name' => $product->name,
+    //         'category' => $product->category ? [ // Check if category exists
 
-        //             'name' => $product->category->name,
-        //         ] : null, // Handle case where category is null
-        //         // Include other product fields as needed
-        //     ];
-        // });
+    //             'name' => $product->category->name,
+    //         ] : null, // Handle case where category is null
+    //         // Include other product fields as needed
+    //     ];
+    // });
 
-        // return response()->json($response);
+    // return response()->json($response);
 
     /**
      * Store a newly created resource in storage.

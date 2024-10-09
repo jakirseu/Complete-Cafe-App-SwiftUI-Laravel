@@ -61,8 +61,7 @@
         <p>No categories available.</p>
     @endforelse
 
-    </tbody>
-    </table>
+
 
 
 
